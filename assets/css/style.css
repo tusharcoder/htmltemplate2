@@ -3,17 +3,24 @@ body{
      font-family: 'Poppins', sans-serif;
  }
 .header{
-    background: #232323;
+    background: #121416;
     color: #ffffff;
 }
 nav{
     display: flex;
-    background-color: #232323;
 }
 
 nav .navigation{
     align-content: center;
     padding-left: 4rem;
+}
+
+.navigation .nav-link {
+    color: #ffffff;
+}
+
+.navigation .nav-link:hover{
+    color: #ff6c00;
 }
 
 nav .navigation, .navbar-brand{
