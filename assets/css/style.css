@@ -1,0 +1,39 @@
+body{
+     color: #232323;
+     font-family: 'Poppins', sans-serif;
+ }
+
+nav{
+    display: flex;
+}
+
+nav .navigation{
+    align-content: center;
+    padding-left: 4rem;
+}
+
+nav .theme-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+nav .theme-user .first-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .theme-user .first-row #search-user{
+    padding-left: 1rem;
+}
+
+nav .logo-title{
+    font-size: 4rem;
+}
+
+nav .logo-subtitle{
+    font-size: 1rem;
+    margin-top: -25px;
+    letter-spacing: 12px;
+}
