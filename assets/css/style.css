@@ -2,15 +2,36 @@ body{
      color: #232323;
      font-family: 'Poppins', sans-serif;
  }
-
+.header{
+    background: #232323;
+    color: #ffffff;
+}
 nav{
     display: flex;
+    background-color: #232323;
 }
 
 nav .navigation{
     align-content: center;
     padding-left: 4rem;
 }
+
+nav .navigation, .navbar-brand{
+    padding-top: 35px;
+}
+
+nav .navbar-brand .logo-title{
+    color: #ff6c00;
+}
+
+nav .navbar-brand .logo-subtitle{
+    color: #ffffff;
+}
+
+nav .navbar-brand a{
+    text-decoration: none;
+}
+
 
 nav .theme-user{
     display: flex;
