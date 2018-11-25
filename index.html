@@ -77,6 +77,9 @@
         </nav>
 
     </div>
+
+    <div id="jarallex" class="container-fluid">
+    </div>
 </div>
 <!--bootstrap scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -89,5 +92,38 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 <!--bootstrap scripts-->
+<!--jarallex-scripts-->
+<!-- Jarallax -->
+<script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+
+<!-- Include it if you want to use Video parallax -->
+<script src="https://unpkg.com/jarallax@1.10/dist/jarallax-video.min.js"></script>
+
+<!-- Include it if you want to parallax any element -->
+<script src="https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js"></script>
+<!--end jarallex scripts-->
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#jarallex").jarallax({
+
+            // parallax effect speed. 0.0 - 1.0
+            speed             : 0.4,
+
+            // path to your parallax image
+            imgSrc            : 'assets/images/banner1-2.jpg',
+
+            // width & height of your parallax image
+            imgWidth          : null,
+            imgHeight         : null,
+
+            // enable transformations for effect if supported.
+            enableTransform   : true,
+
+            // z-index of parallax container.
+            zIndex            : -100
+
+        });
+    });
+</script>
 </body>
 </html>
