@@ -78,7 +78,7 @@
 
     </div>
 
-    <div id="jarallex" class="container-fluid">
+    <div id="banner" class="container-fluid">
     </div>
 </div>
 <!--bootstrap scripts-->
@@ -104,7 +104,7 @@
 <!--end jarallex scripts-->
 <script type="text/javascript">
     $(document).ready(function () {
-        $("#jarallex").jarallax({
+        $("#banner").jarallax({
 
             // parallax effect speed. 0.0 - 1.0
             speed             : 0.4,
@@ -113,8 +113,8 @@
             imgSrc            : 'assets/images/banner1-2.jpg',
 
             // width & height of your parallax image
-            imgWidth          : null,
-            imgHeight         : null,
+            imgWidth          : '100%',
+            imgHeight         : "auto",
 
             // enable transformations for effect if supported.
             enableTransform   : true,
