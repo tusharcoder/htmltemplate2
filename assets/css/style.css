@@ -80,4 +80,67 @@ nav .logo-subtitle{
 
 #banner{
     min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
+#banner > h2{
+    font-family: 'Anton',sans-serif;;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.gradient{
+    background: linear-gradient(rgba(255,255,255,0.3),transparent);
+    position: relative;
+}
+
+.gradient:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    content: "";
+}
+
+.bg-color{
+    background-color: #ff6c00;
+}
+
+.banner-btn .btn-banner{
+    min-width: 200px;
+}
+
+.btn-banner{
+    padding: 0 25px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border: none;
+}
+
+a.btn-banner{
+    height: 40px;
+    line-height: 40px;
+}
+
+a.btn-banner:hover{
+    background-color: #121416;
+    color: white;
+}
+
+a.shop:hover{
+    background-color: #ff6c00;
+    color: white;
+    outline-color: #ff6c00;
+    border: none;
+}
+
+a.shop{
+    border: 1px
+    solid #e5e5e5;
+}
+
