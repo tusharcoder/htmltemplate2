@@ -52,7 +52,19 @@ nav .theme-user .first-row{
     justify-content: space-around;
 }
 
-nav .theme-user .first-row #search-user{
+nav .theme-user .first-row #search-user {
+    margin-left: 2rem;
+}
+
+nav .theme-user .first-row #search-user > span {
+    margin-right: 1rem;
+}
+
+nav .theme-user .first-row {
+    padding-left: 1rem;
+}
+
+nav .theme-user .second-row {
     padding-left: 1rem;
 }
 
