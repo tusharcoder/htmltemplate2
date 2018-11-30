@@ -199,3 +199,55 @@ a.shop{
 .gallery-title:hover{
     color: #ff6c00;
 }
+
+.carousal-item{
+    padding: 20px;
+    float: left;
+    transition: all 0.3s ease-out 0s;
+}
+.title-18{
+    font-size: 18px;
+}
+
+.font-bold{
+    font-weight:700;
+}
+
+.carousal-item .product-price{
+    margin-bottom: 7px;
+}
+.carousal-item .product-price > ins{
+    color: #ff6c00;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.carousal-item .product-extra-link{
+    margin-top: 30px;
+}
+
+.carousal-item .product-extra-link .add-to-cart-btn{
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.carousal-item .product-extra-link a{
+    color:#555;
+    border: 1px solid #e5e5e5;
+    border-radius: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f3f3f3;
+}
