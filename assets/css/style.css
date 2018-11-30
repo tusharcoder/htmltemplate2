@@ -368,3 +368,15 @@ a.active{
     background-color: #ff6c00;
     color: #ffffff;
 }
+
+.product-gallery-item{
+    text-align: center;
+}
+
+.product-gallery-item .title-18{
+    margin-top: 18px;
+}
+
+.gallery-tabs{
+
+}
