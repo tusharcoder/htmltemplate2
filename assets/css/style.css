@@ -274,3 +274,26 @@ a.shop {
 .featured .heading {
     margin-bottom: 30px;
 }
+
+.newsletter{
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../../assets/images/bg-email.jpg");
+    color: #ffffff;
+}
+
+.newsletter > .form-section{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter > .form-section > .heading{
+    margin-right:20px;
+}
+
+.newsletter .form-inline > input{
+    min-width:250px;
+}
