@@ -262,10 +262,11 @@ a.shop {
     font-weight: 400;
 }
 
-.title-30{
+.title-30 {
     font-size: 30px;
 }
-.featured{
+
+.featured {
     background-color: #f3f3f3;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -275,7 +276,7 @@ a.shop {
     margin-bottom: 30px;
 }
 
-.newsletter{
+.newsletter {
     text-align: center;
     padding-left: 120px;
     padding-right: 120px;
@@ -285,20 +286,20 @@ a.shop {
     color: #ffffff;
 }
 
-.newsletter > .form-section{
+.newsletter > .form-section {
     display: flex;
     justify-content: center;
 }
 
-.newsletter > .form-section > .heading{
-    margin-right:20px;
+.newsletter > .form-section > .heading {
+    margin-right: 20px;
 }
 
-.newsletter .form-inline > input{
-    min-width:250px;
+.newsletter .form-inline > input {
+    min-width: 250px;
 }
 
-.search{
+.search {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -307,25 +308,63 @@ a.shop {
     background-image: url("../../assets/images/banner1.jpg");
     color: #ff6c00;
 }
-.search .icon i{
+
+.search .icon i {
     border: solid 1px #ff6c00;
     border-radius: 200%;
     font-size: 60px;
     padding: 30px;
 }
 
-.search .icon{
+.search .icon {
     text-align: center;
     transition: all 0.5s ease-out 0s;
 }
 
-.search .icon:hover{
+.search .icon:hover {
     color: #ffffff;
 }
 
-.search .icon:hover i{
+.search .icon:hover i {
     color: #ffffff;
     border: solid 1px #ffffff;
 }
 
+.product-gallery {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.product-gallery-btn {
+    text-decoration: none !important;
+    text-align: center;
+    background-color: #121416;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 0.3s ease-out 0s;
+    line-height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gallery-wrap > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.gallery-wrap > ul li.tab{
+    margin-left: 1px;
+}
+
+.product-gallery-btn:hover {
+    background-color: #ff6c00;
+    color: #ffffff;
+}
+
+a.active{
+    background-color: #ff6c00;
+    color: #ffffff;
+}

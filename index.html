@@ -602,6 +602,27 @@
         </div>
 
     </div>
+
+    <!--tabs-->
+    <div class="product-gallery">
+        <div class="gallery-wrap text-center">
+                <ul>
+                    <li>
+                        <a href="javascript:Void(0)" class="product-gallery-btn active">Mazda</a>
+                    </li>
+                    <li class="tab">
+                        <a href="javascript:Void(0)" class="product-gallery-btn">toyota</a>
+                    </li>
+                    <li class="tab">
+                        <a href="javascript:Void(0)" class="product-gallery-btn">audi</a>
+                    </li>
+                    <li class="tab">
+                        <a href="javascript:Void(0)" class="product-gallery-btn">ford</a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <!--end tabs-->
 </div>
 <!--bootstrap scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -696,6 +717,11 @@
         $(".carousal-item").hover(function () {
             $(this).toggleClass("shadow-sm");
             $(this).toggleClass("shadow-lg");
+        });
+
+        $(".product-gallery-btn").click(function () {
+            $(".product-gallery-btn.active").toggleClass("active");
+            $(this).toggleClass("active");
         });
 
     });
