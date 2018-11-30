@@ -201,7 +201,8 @@ a.shop{
     padding: 20px;
     float: left;
     transition: all 0.3s ease-out 0s;
-    margin: 0 15px 30px;
+    margin: 0 5px 30px;
+    border-radius: 0;
 }
 .title-18{
     font-size: 18px;
