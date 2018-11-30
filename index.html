@@ -113,7 +113,6 @@
             </div>
         </div>
     </div>
-    <div> <!--parent div to carousel is very important it reset the owl carousal-->
 <div class="owl-carousel owl-theme slider">
     <div class="card carousal-item shadow-sm">
         <img src="assets/images/retailer_car_cx9_titanium-225x126.png" alt="" class="card-img-top">
@@ -316,7 +315,6 @@
     </div>
 
 </div>
-    </div>
 </div>
 <!--bootstrap scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -371,7 +369,7 @@
     $(document).ready(function () {
             $(".owl-carousel").owlCarousel({
                 center: true,
-                items:1,
+                items:1, //this is important, it was breaking the view on mobile if greater than 1
                 loop:true,
                 margin:20,
                 responsive:{
