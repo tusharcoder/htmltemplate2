@@ -297,3 +297,35 @@ a.shop {
 .newsletter .form-inline > input{
     min-width:250px;
 }
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url("../../assets/images/banner1.jpg");
+    color: #ff6c00;
+}
+.search .icon i{
+    border: solid 1px #ff6c00;
+    border-radius: 200%;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.search .icon{
+    text-align: center;
+    transition: all 0.5s ease-out 0s;
+}
+
+.search .icon:hover{
+    color: #ffffff;
+}
+
+.search .icon:hover i{
+    color: #ffffff;
+    border: solid 1px #ffffff;
+}
+
+

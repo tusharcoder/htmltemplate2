@@ -567,6 +567,41 @@
 
         </div>
     </div>
+
+    <div class="search" id="search">
+        <div class="icon">
+            <div class="mb-5">
+                <i class="fa fa-wrench"></i>
+            </div>
+            <div class="text-uppercase title-18">
+                Build And Price
+            </div>
+
+        </div>
+
+        <div class="icon">
+            <div class="mb-5">
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="text-uppercase title-18">
+                Search inventry
+            </div>
+
+        </div>
+
+        <div class="icon">
+            <div class="mb-5">
+                <i class="fa fa-envelope-open"></i>
+            </div>
+
+            <div class="text-uppercase title-18">
+                Request quote
+            </div>
+
+
+        </div>
+
+    </div>
 </div>
 <!--bootstrap scripts-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -603,6 +638,26 @@
 
             // path to your parallax image
             imgSrc: 'assets/images/banner1-2.jpg',
+
+            // width & height of your parallax image
+            imgWidth: '100%',
+            imgHeight: "auto",
+
+            // enable transformations for effect if supported.
+            enableTransform: true,
+
+            // z-index of parallax container.
+            zIndex: -100
+
+        });
+
+        $("#search").jarallax({
+
+            // parallax effect speed. 0.0 - 1.0
+            speed: 0.4,
+
+            // path to your parallax image
+            imgSrc: 'assets/images/parallax1.jpg',
 
             // width & height of your parallax image
             imgWidth: '100%',
