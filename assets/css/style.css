@@ -348,6 +348,10 @@ a.shop {
     padding-bottom: 5px;
 }
 
+.gallery-tabs > .nav-item ~ .nav-item { /* margin for all the selected elements except the first one */
+    margin-left: 1px;
+}
+
 .gallery-wrap > ul {
     list-style: none;
     display: flex;
@@ -364,6 +368,11 @@ a.shop {
     color: #ffffff;
 }
 
+a.product-gallery-btn.active{
+    background-color: #ff6c00 !important;
+    color: #ffffff!important;
+}
+
 a.active{
     background-color: #ff6c00;
     color: #ffffff;
@@ -378,5 +387,5 @@ a.active{
 }
 
 .gallery-tabs{
-
+    border-bottom: none ;
 }
