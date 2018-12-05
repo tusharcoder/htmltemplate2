@@ -409,6 +409,7 @@ a.active{
     min-width: 580px;
     background-repeat: no-repeat;
     float: right;
+    position: relative;
 }
 
 .img-2{
@@ -439,4 +440,46 @@ a.active{
     justify-content: space-between;
     padding-left: 0;
 
+}
+
+.white{
+ color: #ffffff;
+}
+
+.section-container .banner-info {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}
+.section-container .img-1 .banner-info
+{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 20px;
+}
+.section-container .banner-info h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+.section-container .banner-info h2:after{
+    content: "";
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    bottom: -18px;
+}
+
+.section-container .img-1 .links{
+    position: absolute;
+    right: -200px;
+    bottom: 18px;
+}
+
+.section-container .img-2 .links{
+    position: absolute;
+    right: -235px;
+    bottom: 18px;
 }
