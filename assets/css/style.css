@@ -3,6 +3,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 .wrap {
     overflow: hidden;
 }
@@ -210,7 +214,7 @@ a.shop {
 }
 
 .font-bold {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 .carousal-item .product-price {
@@ -482,4 +486,63 @@ a.active{
     position: absolute;
     right: -235px;
     bottom: 18px;
+}
+
+#full-owl #item-1{
+    /*background-image: url("../../assets/images/slide1-3.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: no-repeat;*/
+ }
+
+#full-owl #item-1{
+    /*background-image: url("../../assets/images/slide2-3.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: no-repeat;*/
+ }
+
+#full-owl #item-1{
+    /*background-image: url("../../assets/images/slide3-3.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-repeat: no-repeat;*/
+ }
+
+.title-14{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#full-owl .banner-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 800px;
+    bottom: 0;
+    margin: auto;
+    width: 350px;
+    height: 530px;
+}
+
+#full-owl .banner-bottom-info{
+    padding: 90px 50px;
+}
+
+#full-owl .btn-banner{
+    padding:10px 15px;
+    transition: all 0.5s ease-out 0s;
+}
+.banner-bottom-info .desc{
+    margin-bottom: 30px;
+}
+
+a.btn-hover:hover{
+    background-color: #ffffff;
+    color: #ff6c00;;
+}
+
+.banner-bottom-info h4{
+    margin: 20px 0;
+}
+
+#full-owl .banner-info{
+    bottom:-100px;
 }
